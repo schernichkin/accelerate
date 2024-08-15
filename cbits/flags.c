@@ -18,7 +18,6 @@
  */
 
 #include <ctype.h>
-#include <getopt.h>
 #include <inttypes.h>
 #include <libgen.h>
 #include <stdint.h>
@@ -27,7 +26,7 @@
 #include <string.h>
 
 #include "flags.h"
-
+#include "getopt.h"
 
 /* These globals will be accessed from the Haskell side to implement the
  * corresponding behaviour.
